@@ -1,0 +1,38 @@
+.mainForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lavender;
+    justify-content: center;
+    padding-block: 1em;
+}
+.formRegistro {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.input {
+    padding: 10px 3px;
+    border-radius: 0.25em;
+    border: none;
+}
+.submit {
+    padding: 10px;
+    background-color: darkmagenta;
+    color: white;
+    font-size: 20px;
+    border-radius: 0.25em;
+    border: none;
+}
+.submit:hover  {
+    background-color: orchid;
+    color: rgb(255, 254, 254);
+    transition: 0.25s all;
+    border: none;
+}
+.enviado {
+    background-color: lightgray;
+    color: white;
+}

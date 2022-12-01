@@ -1,0 +1,11 @@
+.contenedor{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lavender;
+    padding: auto;
+}
+
+.info{
+    color: lightgrey;
+    border-radius: 0.25em;
+    padding: 1em;
+}

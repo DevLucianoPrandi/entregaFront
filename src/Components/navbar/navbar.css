@@ -1,0 +1,20 @@
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo{
+    width: 12rem;
+    margin-left: 2em;
+    margin-top: 0.75em;
+}
+.pais{
+    font-size: small;
+    margin-left: 11.75em;
+    margin-top: 0.5em;
+}
+.me-auto{
+    font-weight: 500;
+}
+.reserv{
+    margin-right: 3em;
+}

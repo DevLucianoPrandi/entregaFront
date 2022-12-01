@@ -1,0 +1,26 @@
+.contenido{
+    background-color: lavender;
+    width: 100%;
+}
+.presentacion{
+    padding-left: 4em;
+}
+h1{
+    width: 81.5%;
+    color: darkmagenta
+}
+
+p{
+    text-align: justify;
+    width: 80%;
+}
+@media  screen and (max-width: 768px) {
+    .presentacion{
+        padding-left:0;
+    }
+    p{
+        text-align: justify;
+        width: 100%;
+        padding-inline: 1em;
+    }
+}
