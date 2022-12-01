@@ -66,7 +66,7 @@ const Reserva = () => {
                     </Col>
                     <Col sx={12} md={12} lg={4}>
                     <Form.Group className="mb-3" >
-                        <Form.Label>Elegí el tipo de curso que te interesa</Form.Label>
+                        <Form.Label>Elegí el tipo de curso:</Form.Label>
                             <Form.Select name="curso">
                                 <option selected value="extensivo">Cursos extensivos</option>
                                 <option value="intensivo">Cursos intensivos</option>
@@ -82,12 +82,10 @@ const Reserva = () => {
                         <Form.Label>Aclaraciones</Form.Label>
                         <Form.Control name="aclaracion" as="textarea" type="text" placeholder="Especificá tu reserva" />
                     </Form.Group>
-                </Row>
-
-                <Form.Group className="mb-3" id="confirmacion">
+                    <Form.Group className="mb-3" id="confirmacion">
                     <Form.Check type="checkbox" label="Confirmar datos ingresados" />
                 </Form.Group>
-
+                </Row>
                 <Enviado />
             </Form >
         </Container>
