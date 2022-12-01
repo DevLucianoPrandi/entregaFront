@@ -6,6 +6,7 @@ import Container from 'react-bootstrap/Container';
 import InputGroup from 'react-bootstrap/InputGroup';
 import emailjs from 'emailjs-com';
 import Enviado from './enviadores.js'
+import './reserva.css'
 
 
 const Reserva = () => {
@@ -24,20 +25,20 @@ const Reserva = () => {
     return (
         <Container fluid className='contenedor w-100 p-4'>
             <Form ref={form} onSubmit={sendEmail} className='formulario shadow rounded p-4 bg-white'>
-                <Row className="mb-3">
-                    <Form.Group>
+                <Row >
+                    <Form.Group className="mb-3">
                         <Form.Label>Nombre</Form.Label>
                         <Form.Control name="nombre" type="text" placeholder="Ingresá tu nombre" />
                     </Form.Group>
 
-                    <Form.Group >
+                    <Form.Group className="mb-3">
                         <Form.Label>Email</Form.Label>
                         <Form.Control name="email" type="email" placeholder="Ingresá tu dirección de mail" />
                     </Form.Group>
                 </Row>
-                <Row>
+                <Row >
                     <Col sx={12} md={12} lg={4}>
-                        <Form.Group className="mb-3" >
+                        <Form.Group >
                             <Form.Label>Idioma que querés aprender: </Form.Label>
                             <Form.Select name="idioma">
                                 <option selected value="ingles">Inglés</option>
