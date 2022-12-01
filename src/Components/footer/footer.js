@@ -29,7 +29,7 @@ function Footer() {
                         <Col xs="12" md="12" lg="5">
                             <Row className='mt-1'>
                                 <Navbar.Text className="reservar">
-                                    <Nav.Link className="text-primary" as={Link} to="./reserva">¡Reservá horas!</Nav.Link>
+                                    <Nav.Link style={{color:'darkmagenta'}} as={Link} to="./reserva">¡Reservá horas!</Nav.Link>
                                 </Navbar.Text>
                             </Row>
                             <Row>
@@ -64,7 +64,7 @@ function Footer() {
                         <Navbar.Text>
                         <div className="enlaces">
                                     <div className='text-primary'><h5>Contenido</h5></div>
-                                    <Nav.Link className='text-primary pt-1' as={Link} to="./"><h6>Home</h6></Nav.Link>
+                                    <Nav.Link className='text-primary pt-1' as={Link} to="./home"><h6>Home</h6></Nav.Link>
                                     <Nav.Link className='text-primary pt-1' as={Link} to="./servicios"><h6> Servicios</h6></Nav.Link>
                                     <Nav.Link className='text-primary pt-1' as={Link} to="./idiomas"><h6> Idiomas</h6></Nav.Link>
                                     <Nav.Link className='text-primary pt-1' as={Link} to="./niveles"><h6> Niveles</h6></Nav.Link>
