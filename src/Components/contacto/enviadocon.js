@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import './contacto.css'
 
 function Enviado() {
   const [show, setShow] = useState(false);
@@ -10,7 +11,7 @@ function Enviado() {
 
   return (
     <>
-      <Button variant="primary" type="submit" value="Enviar" className='submit' onClick={handleShow}>
+      <Button variant="primary" type="submit" value="Enviar" className='submit w-10' onClick={handleShow}>
         Enviá tu mensaje!
     </Button>
 

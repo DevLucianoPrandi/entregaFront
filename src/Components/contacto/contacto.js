@@ -19,9 +19,9 @@ const Contacto = () => {
   };
 
     return (
-      <Container fluid className="mainForm">
-        <h2 className="py-1">Ponete en contacto con <span style={{ color: 'orchid' }}>Inter</span><span style={{ color: 'darkmagenta' }}>Lingua</span></h2>
+      <Container fluid className="contenedor">
         <form ref={form} onSubmit={sendEmail} className="formRegistro">
+        <h2>Ponete en contacto con <span style={{ color: 'orchid' }}>Inter</span><span style={{ color: 'darkmagenta' }}>Lingua</span></h2>
           <input
             type="text"
             placeholder="Nombre"
@@ -48,8 +48,8 @@ const Contacto = () => {
             cols="40"
             rows="5"
             required />
-          <Enviado />
         </form>
+        <Enviado />
       </Container>
     );
   };

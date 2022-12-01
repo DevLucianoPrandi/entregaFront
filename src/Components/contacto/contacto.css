@@ -1,17 +1,18 @@
-.mainForm {
+.contenedor {
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: lavender;
-    justify-content: center;
     padding-block: 1em;
+    text-align: center;
 }
 .formRegistro {
     width: 40%;
     display: flex;
     flex-direction: column;
     gap: 2em;
+    margin-bottom: 2em;
 }
 .input {
     padding: 10px 3px;
@@ -32,7 +33,12 @@
     transition: 0.25s all;
     border: none;
 }
-.enviado {
-    background-color: lightgray;
-    color: white;
+
+@media screen and (max-width: 768px){
+    .formRegistro {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
 }
